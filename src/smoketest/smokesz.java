@@ -16,7 +16,7 @@ public class smokesz {
 	 public void test(){
 		 Cm=new CommonMethods(driver);
 		 driver =Cm.openBrowser("Firefox");
-		 Cm.navigateURL("http://10.1.10.93:9090/CounterWebApp/");
+		 Cm.navigateURL("http://52.42.57.238:8082/CounterWebApp/");
 		 Cm.verifyText("Maven Spring MVC Web Project Example");
 		 //Cm.VerifyTitle("Maven Spring MVC Web Project Example");
 		// assertEquals("Maven Spring MVC Web Project Example", driver.findElement(By.xpath("/html/body/h1")).getText());
